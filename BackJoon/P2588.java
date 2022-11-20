@@ -2,7 +2,7 @@ package BackJoon;
 
 import java.util.Scanner;
 
-public class Back2588 {
+public class P2588 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();
