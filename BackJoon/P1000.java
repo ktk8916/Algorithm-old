@@ -2,7 +2,7 @@ package BackJoon;
 
 import java.util.Scanner;
 
-public class Back1000 {
+public class P1000 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
