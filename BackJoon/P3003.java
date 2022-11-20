@@ -2,7 +2,7 @@ package BackJoon;
 
 import java.util.Scanner;
 
-public class Back3003 {
+public class P3003 {
     public static void main(String[] args) {
 
         int[] chessSet = {1,1,2,2,2,8};
