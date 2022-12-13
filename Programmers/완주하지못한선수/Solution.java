@@ -1,6 +1,6 @@
 package Programmers.완주하지못한선수;
 
-import java.util.HashMap;
+import java.util.*;
 
 public class Solution {
     public String solution(String[] participant, String[] completion) {
@@ -13,16 +13,14 @@ public class Solution {
             list.put(name, list.get(name)-1);
         }
 
-        for(String name:list){
+        Set<String> names = list.keySet();
 
+        for(String name:names){
+            if(list.get(name)!=0){
+                answer=name;
+            }
         }
+        System.out.println(answer);
         return answer;
-    }
-
-    public static void main(String[] args) {
-        Solution s = new Solution();
-        String[] a = {"mislav", "stanko", "mislav", "ana"};
-        String[] b = {"stanko", "ana", "mislav"};
-        s.solution(a, b);
     }
 }
